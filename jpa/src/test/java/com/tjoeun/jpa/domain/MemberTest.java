@@ -19,8 +19,8 @@ class MemberTest {
 		System.out.println("member: " + member);
 		log.info("member: " + member);
 		
-		Member member2 = new Member(1L, "임꺽정", "b@b.com", LocalDateTime.now(), LocalDateTime.now());
-		System.out.println("member2: " + member2);
+//		Member member2 = new Member(1L, "임꺽정", "b@b.com", null, LocalDateTime.now(), LocalDateTime.now());
+//		System.out.println("member2: " + member2);
 		Member member3 = new Member("장길산", "c@c.com");
 		System.out.println("member3: " + member3);
 		
@@ -29,5 +29,13 @@ class MemberTest {
 		Member member4 = Member.builder().name("일지매").email("d@d.com").build();		
 		System.out.println("member4: " + member4);
 	}
-
 }
+
+
+
+
+
+
+
+
+
